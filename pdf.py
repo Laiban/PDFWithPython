@@ -1,4 +1,8 @@
-import pypdf2
+from PyPDF4 import PdfFileWriter, PdfFileReader
+import PyPDF4
+
+
+
 
 with open('dummy.pdf','r') as file:
 	reader = pypdf2.pdfFileReader(file)
